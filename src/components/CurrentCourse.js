@@ -5,7 +5,7 @@ const CurrentCourse = () => {
       <div className='mt-4 md:mt-0 flex justify-center items-center min-h-screen'>
         <div className=' ml-5 text-2xl font-bold  md:text-left'>
           Pick up where you left off
-          <div class='container rounded flex flex-col md:flex-row mt-4 md:mt-4 max-w-5xl relative border border-gray-400 '>
+          <div class='container rounded flex flex-col md:flex-row mt-4 md:mt-4 -ml-0.5 max-w-5xl relative border border-gray-400 '>
             <div className='relative '>
               <img
                 src='course.jpg'

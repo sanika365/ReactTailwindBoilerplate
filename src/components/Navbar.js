@@ -28,9 +28,9 @@ const Navbar = () => {
         <div className='flex items-center'>
           <FontAwesomeIcon
             icon={faConnectdevelop}
-            className='text-4xl hidden md:block'
+            className='text-4xl hidden md:block md:ml-4  '
           />
-          <a href='/' className='text-3xl font-normal text-gray-800 md:ml-4'>
+          <a href='/' className='text-3xl font-normal text-gray-800 md:ml-1'>
             BRILLIANT
           </a>
           <div className='hidden md:flex md:ml-10'>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className='flex items-center '>
-          <button className='ml-2 md:ml-0 px-4 py-2 border border-green-500 text-green-500 rounded-md hover:bg-green-500 hover:text-white'>
+          <button className='ml-4 md-ml-0 px-4 py-2 border border-green-500 text-green-500 rounded-md hover:bg-green-500 hover:text-white'>
             START TRIAL
           </button>
           <span className='font-bold  ml-2 md:ml-5'>2</span>
@@ -81,7 +81,7 @@ const Navbar = () => {
             {" "}
             {/* Rendering search bar only on desktop */}
             <input
-              className='px-4 py-2 border rounded focus:outline-none focus:ring focus:border-blue-100 bg-gray-100 text-gray-800 w-full'
+              className='px-4 py-2 border  rounded focus:outline-none focus:ring focus:border-blue-100 bg-gray-100 text-gray-800 w-full'
               style={{ height: "28px" }}
             />
             <FontAwesomeIcon
