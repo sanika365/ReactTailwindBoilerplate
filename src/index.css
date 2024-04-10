@@ -1,0 +1,19 @@
+.yellow-bolt {
+    color: rgb(216, 216, 17);
+}
+.grey-bolt {
+     color: rgb(207, 199, 199);
+}
+.relative.mt-4 {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.half-yellow-gray {
+    height: 2px;
+    width: 80%;
+    background-color: #9CA3AF;
+    /* Gray color */
+    border-left: 2px solid #FEFCE8;
+    /* Yellow color */
+}
