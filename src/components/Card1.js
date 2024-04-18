@@ -2,11 +2,11 @@ import React from "react";
 
 const Card = ({ image, title, subtitle,description }) => {
   return (
-    <div className='max-w-sm rounded overflow-hidden shadow-lg mx-auto border border-gray-400'>
+    <div className=' w-100 rounded overflow-hidden shadow-lg  border border-gray-400'>
       <img
         src={image}
         alt={title}
-        className='w-full   h-40 object-cover mb-4'
+        className='w-200 md:w-100 h-55 md:h-64  md:ml-2 rounded  mt-4 mb-4'
       />
       <div className='px-6 py-4'>
         <div class='flex'>

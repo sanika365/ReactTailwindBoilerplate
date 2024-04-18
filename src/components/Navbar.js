@@ -33,7 +33,7 @@ const Navbar = () => {
           <img
             src='ss2.jpg'
             alt='Fundamental math'
-            className='w-14 h-14 sm:w-14 sm:h-14 hidden md:block md:ml:4 '
+            className='w-14 h-14 sm:w-14 sm:h-14 hidden md:block md:ml:4 ml-8 '
           />
           <a href='/' className='text-3xl font-normal text-gray-800 md:ml-1'>
             BRILLIANT
