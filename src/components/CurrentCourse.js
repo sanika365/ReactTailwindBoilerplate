@@ -8,7 +8,7 @@ const CurrentCourse = () => {
           <div class='container rounded flex flex-col md:flex-row mt-4 md:mt-4 -ml-0.5 max-w-5xl relative border border-gray-400 '>
             <div className='relative '>
               <img
-                src='course.jpg'
+                src='ss1.jpg'
                 alt='Course'
                 className='w-full md:w-400 h-64 mx-auto rounded md:ml-4 mt-4 mb-4'
               />

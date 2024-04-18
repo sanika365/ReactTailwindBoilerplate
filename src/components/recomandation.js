@@ -8,7 +8,7 @@ const Recommended  = () => {
         <div className='container flex flex-wrap mt-8 mx-auto  relative md:ml-4 max-w-sm  '>
           {" "}
           <Card
-            image='algebra.jpg'
+            image='ss3.jpg'
             title='Pre-Algebra .'
             subtitle= 'Lesson 1 of 28'
             description='Understanding variables'

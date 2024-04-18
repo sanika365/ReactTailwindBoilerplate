@@ -12,9 +12,9 @@ const Feature = () => {
           <div className='rounded overflow-hidden shadow-lg border border-gray-300'>
             <div className='flex'>
               <img
-                src='img1.jpg'
+                src='ss4.jpg'
                 alt='Fundamental math'
-                className='w-1/3 h-auto object-cover md:w-1/2'
+                className='w-26 h-26 sm:w-48 sm:h-44 md:ml-auto mt-8'
               />
               <div className='px-6 py-6'>
                 <div className='font-medium text-sm text-gray-900 mb-2'>
@@ -40,9 +40,9 @@ const Feature = () => {
           <div className='rounded overflow-hidden shadow-lg border border-gray-300'>
             <div className='flex'>
               <img
-                src='img2.jpg'
+                src='ss4.jpg'
                 alt='Mathematical thinking'
-                className='w-1/3 h-auto object-cover md:w-1/2'
+                className='w-26 h-26 sm:w-48 sm:h-44 md:ml-auto mt-8'
               />
               <div className='px-6 py-6'>
                 <div className='font-medium text-sm text-gray-900  mb-2'>

@@ -26,9 +26,14 @@ const Navbar = () => {
     <nav className='bg-white-50 shadow-md'>
       <div className='container mx-auto px-4 md:px-0 h-16 flex items-center justify-between relative'>
         <div className='flex items-center'>
-          <FontAwesomeIcon
+          {/* <FontAwesomeIcon
             icon={faConnectdevelop}
             className='text-4xl hidden md:block md:ml-4  '
+          /> */}
+          <img
+            src='ss2.jpg'
+            alt='Fundamental math'
+            className='w-14 h-14 sm:w-14 sm:h-14 hidden md:block md:ml:4 '
           />
           <a href='/' className='text-3xl font-normal text-gray-800 md:ml-1'>
             BRILLIANT
