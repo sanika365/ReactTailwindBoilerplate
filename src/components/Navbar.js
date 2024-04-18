@@ -8,7 +8,7 @@ import {
   faSearch,
   faBolt,
 } from "@fortawesome/free-solid-svg-icons";
-import { faConnectdevelop } from "@fortawesome/free-brands-svg-icons"; // Importing connectdevelop icon
+
 
 const Navbar = () => {
   const [sliderPosition, setSliderPosition] = useState(0);
@@ -26,10 +26,7 @@ const Navbar = () => {
     <nav className='bg-white-50 shadow-md'>
       <div className='container mx-auto px-4 md:px-0 h-16 flex items-center justify-between relative'>
         <div className='flex items-center'>
-          {/* <FontAwesomeIcon
-            icon={faConnectdevelop}
-            className='text-4xl hidden md:block md:ml-4  '
-          /> */}
+         
           <img
             src='ss2.jpg'
             alt='Fundamental math'

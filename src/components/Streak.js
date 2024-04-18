@@ -11,11 +11,6 @@ const Streak = () => {
   return (
     <div className='mt-20 md:mt-4 flex flex-col items-center  mx-4 relative sm:flex-row sm:mt-20 sm:ml-20'>
       <div className='flex  justify-center '>
-        {/* <span className='font-bold text-4xl sm:text-5xl sm:ml-0'>2</span>
-        <FontAwesomeIcon
-          icon={faBolt}
-          className='ml-2 text-4xl yellow-bolt sm:text-5xl'
-        /> */}
         <img
           src='ss5.jpg'
           alt='Fundamental math'
@@ -29,17 +24,16 @@ const Streak = () => {
             streak!
           </div>
           <div className='ml-1 text-sm font-normal  mt-2 sm:text-base'>
-            <span className='font-bold'>2</span> Longest Streak.{" "}
+            <span className='font-bold'>2</span>{" "}
+            <span className='font-normal text-gray-500'>Longest Streak</span>
             <span className='font-bold ml-7'>19</span>{" "}
-            <span className='font-normal'>Lessons Completed</span>
+            <span className='font-normal text-gray-500'>Lessons Completed</span>
           </div>
         </div>
-
+        {/* Vertical Line */}
         <div className='absolute h-full border-l border-gray-300 left-1/2 transform -translate-x-1/2 hidden sm:block'></div>
 
         <div className='relative flex items-center justify-center'>
-          {/* Vertical Line */}
-
           {/* Container for Weekdays */}
           <div className='flex items-start mt-4 sm:mt-0  flex-grow pl-4 ml-0 sm:ml-0'>
             <div className='flex flex-col items-center ml-8 sm:ml-2'>
@@ -92,6 +86,7 @@ const Streak = () => {
     </div>
   );
 };
+
 
 export default Streak;
 

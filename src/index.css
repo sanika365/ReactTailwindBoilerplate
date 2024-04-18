@@ -17,3 +17,6 @@
     border-left: 2px solid #FEFCE8;
     /* Yellow color */
 }
+.max-w-custom {
+    max-width: 300px;
+}
